@@ -1,0 +1,48 @@
+Customer Module
+
+START
+Prompt user to click on icon
+If(user clicks Make Up icon) then
+Display "Make Up Products"
+Else
+If(user clicks Skin Care icon) then
+Display "Skin Care Products"
+Else
+If(user clicks Hair Care icon) then 
+Display "Hair Care Products"
+Endif
+Endif
+Endif
+END
+
+Products Module
+
+START
+Prompt user to select item
+Get item
+Prompt user to select quantity 
+Get quantity
+DOWHILE(quantity<itemPrice)
+totalPrice=quantity*itemPrice
+ENDDO
+If(user clicks "Buy Now") then 
+Display "Enter Credit Card Details"
+Else
+If(user clicks Add to Cart) then
+Display "Item added to cart"
+ENDIF
+ENDIF
+END
+
+FUNCTION cart(quantity,item){
+totalPrice=quantity*itemPrice
+Display totalPrice
+}
+
+FUNCTION buyNow(item,quantity){
+If(Credit Card Number==Valid) AND (Password==Password) then
+Display "Item successfully bought. Thank you for shopping with us"
+Else
+Display "Invalid Card Number or Incorrect Password"
+}
+
