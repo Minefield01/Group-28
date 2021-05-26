@@ -1,0 +1,21 @@
+Start
+       addEvent(eventDate,eventName)
+end 
+customerStatus = 0
+submitSurvey(name,age,gender,favProduct,customLike,customExp){
+          click "do survey"
+       if( customerStatus < 1)then
+          print"what is your name and surname?"
+          GET name
+          print"what is your age?"
+          GET age
+          print"what is your gender?"
+         GET gender
+         print"what is your your favourite product sold by Ayesha Beauty creations?"
+         GET favProduct
+         print"what do you like about us?"
+         GET customLike
+         print”what do you expect from Ayesaha Beauty Creations”
+         GET customExp
+     Endif
+End

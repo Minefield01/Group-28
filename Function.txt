@@ -1,0 +1,8 @@
+calender(){
+array cal =[01/01,02/01,...,30/12,31/12]
+        day = 0
+        DOWHILE (day<364)
+                    calender(day) = ("")
+                    day = day + 1
+           enddo
+}endfunction

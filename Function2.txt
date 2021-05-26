@@ -1,0 +1,16 @@
+Start
+calender()
+end
+import scheduling
+assignTask(userName,taskType,dueDate){
+        click "assign task"
+        open task form
+        print "Enter employee username"
+        GET userName
+        print "enter task type"
+        GET taskType
+        print " enter the task due date dd/mm"
+        GET dueDate
+         assign = concat empName + " " + task type
+         scheduling.caleder(at dueDate insert(assign))
+}endfunction

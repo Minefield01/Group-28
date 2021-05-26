@@ -1,0 +1,10 @@
+Start
+    assignTask(userName,taskType,dueDate)
+end
+addEvent(eventDate,eventName){
+         print"event date dd/mm?"
+         GET eventDate
+         print"name of the event?"
+         GET eventName
+          scheduling.calender(eventDate,eventName)
+}endfunction

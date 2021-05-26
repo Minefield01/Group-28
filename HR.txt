@@ -1,0 +1,18 @@
+Start
+Calender()
+    If calenderDay= 29 then
+       Day= payDay
+    If employeeJob= Nail_Artist then
+      1000>=Salary<=3000
+      Transfer Salary
+  Else if employeeJob= Make_Up Artist then
+       3000>=Salary<=4000
+        Transfer Salary
+  Else if employeeJob = Hair_Dresser then
+        4000>=Salary<=5000
+        Transfer Salary
+     Endif
+   Endif
+ Endif
+Endif
+Stop
