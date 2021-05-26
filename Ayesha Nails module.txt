@@ -1,0 +1,14 @@
+Start
+  displayScreen Modules = Hair, Make_Up, Nails
+   print Modules
+if user clicks Hair then
+   display Braids with guinea pig face to try out different sizes and colors of braids
+ else if user clicks Make_Up
+    display make up fragments , brushes and guinea pig face to play around with all make up products
+else if user clicks Nails
+   display nail paints with different fingers to try nail products out on
+  endif
+endif
+endif
+Stop
+
