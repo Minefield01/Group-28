@@ -1,3 +1,4 @@
+Begin
 vission=("Our drive is to better your beauty routine sets the foundation for every Ayesha Beuty creation, a Kanmanjab village-based manufacturer in the Beauty,Personal care and 
          Coametic sector.We are looking to you and your every day for inspiration,then infusing the highest quality ethically sourced materials,indigenous ingredients and technology 
          to offer soloutions you will revel in,swing knowledge shared over generations amongst Namibian matriarchs.Evert innovative beauty tool ,texture,formula,and cosmetic
@@ -6,4 +7,24 @@ vission=("Our drive is to better your beauty routine sets the foundation for eve
          all beauty users' lives,it is what sets us appart.Our product range is distributed by Dischem pharmacies Namibia and PnP stores.")
 available_products=("lip gloss","lip stick","lip balm","lotion","makeup","hand soap","facial cleanser","body wash","nail files",
                      "pomade","perfumes","razors","shaving cream","moisturizer","baby powder")
-colognes= 
+colognes= ("Aqua Di Gio by Giorgio Armani","Tom Ford Noir Extreme","Jean Paul Gaultier","Poor Houme by Bottega Veneta","Ambre Nult By Christian Dior")
+on_sale=("cotton swabs","cotton pads","deodorant","eye liner","facial tissue","hair clippers")
+x=6
+while x!=0:
+x=input "Enter 1 to view our vission,Enter 2 to view available products,Enter 3 to view our colognes,Enter 4 to view our specials"
+if x==1 then
+display vission
+ elseif x==2 then
+  display available_products
+   elseif x==3 then
+    display colognes
+      elseif x==4 then
+       display on_sale
+        else
+         display invalid entry
+         endif
+       endif
+     endif
+   endif
+ End
+ 
