@@ -1,8 +1,8 @@
 # Ayesha Beauty Creations
 
 # Task Assignment
-Hilton- Scratch Customer flowchart
-Minefield- Scratch, Pseudocode
+Hilton- Customer flowchart
+Minefield- Scratch, Pseudocode and flowcharts document etc
 # Documentations
 *This repository is containing of all the tasks and implementations 
 that each and everyone of our team has come up with, after we have
